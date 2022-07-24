@@ -1,0 +1,13 @@
+.AcercaDePage {
+    text-align: center;
+}
+
+.videoSlider {
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}

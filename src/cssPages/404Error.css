@@ -1,0 +1,64 @@
+.ErrorPage{
+    margin: auto;
+}
+.Error404Img {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2px;
+    width: 80%;
+    height: 650px;
+    border-radius: 1%;
+}
+
+.btn {
+    width: 150px;
+    margin: 20px auto;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 25px;
+    background: #023258;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+@media (max-width:1280px){
+    .Error404Img{
+    width: 80%;
+    height: 50%;
+    }
+    .btn{
+        top: 66%; 
+    }
+}
+@media (max-width:900px){
+    .Error404Img{
+    width: 80%;
+    height: 50%;
+    }
+    .btn{
+        font-size: 15px;
+        width: 120px;
+        top: 45%;
+        right: 20%;
+    }
+}@media (max-width:791px){
+    .Error404Img{
+    width: 80%;
+    height: 50%;
+    }
+    .btn{
+        font-size: 15px;
+        width: 120px;
+        top: 45%;
+        right: 20%;
+    }
+}

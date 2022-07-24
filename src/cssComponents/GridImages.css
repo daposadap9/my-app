@@ -1,0 +1,80 @@
+.griddd{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.Title-h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+.Imagenes-Productos {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 350px;
+    min-height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.iconsProducts{
+    margin: 10px 0;
+}
+.iconsProducts a{
+    margin-right: 20px;
+}
+.productContainer {
+    width: 90%;
+    background: #2c2c54;
+    padding: 12px;
+    border-radius: 10px;
+    width: 315px;
+    min-height: 700px;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.titleProducts {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.productContainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 3fr);
+    margin: auto;
+    cursor: pointer;
+}
+.productContainer:hover{
+    background: #404079;
+}
+
+
+.productContainer .imageProduct {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.ul__icon__gridImages {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ul__icon__gridImages:hover {
+    color: rgb(255, 225, 0);
+    opacity: 0.8;
+}
+.priceProduct{
+    margin: 20px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 90px;
+    overflow: auto;
+    background: #4b6584;
+    padding: 20px;
+    border-radius: 10px;
+}
