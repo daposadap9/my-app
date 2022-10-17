@@ -9,7 +9,7 @@ import Image1 from '../Img/Pages/inicio/img1.jpeg';
 import Image2 from '../Img/Pages/inicio/img2.jpeg';
 import Image3 from '../Img/Pages/inicio/img3.jpeg';
 import Image4 from '../Img/Pages/inicio/img4.jpeg';
-// //imagenes tarejetas
+// //imagenes tarjetas
 //iamgenes slider
 import Imagen1 from "../Img/components/Slider/Imagen1.jpg";
 import Imagen2 from "../Img/components/Slider/Imagen2.jpg"; 
